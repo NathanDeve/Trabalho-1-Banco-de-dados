@@ -1,0 +1,262 @@
+/* Define estilos para todos os elementos */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Define a fonte da família Montserrat para o corpo do documento */
+body {
+    font-family: Helvetica;
+    font-weight:550 ;
+    
+}
+
+.bodyCad{
+    font-family: Helvetica;
+    font-weight:550 ;
+    padding: 10px;
+}
+
+/* Estilos da barra de navegação */
+nav {
+    background: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Estilos do logotipo */
+nav .logo img {
+    width: 350px; /* Defina a largura desejada para a imagem */
+    height: auto; /* Mantém a proporção correta da imagem */
+}
+
+/* Estilos da lista de itens da barra de navegação */
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Alinha os itens ao centro */
+}
+.logo{
+    display: flex;
+    justify-content: start;
+
+
+}
+nav ul li {
+    margin: 0 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    justify-content:center ;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove a margem direita do último item */
+}
+
+/* Estilos dos links da barra de navegação */
+nav ul li a {
+    color: black;
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+/* Estilos dos links ativos e em hover */
+a.active,
+a:hover {
+    background: #FF0000;
+    color: white;
+}
+
+/* Estilos para a seção principal com imagem de fundo */
+section {
+    background: url(#) no-repeat;
+    background-size: cover;
+   /* height: calc(100vh - 20px);*/
+}
+
+.bodyCad{
+    padding: 20px;
+    margin: 0;
+}
+
+.afazeres{
+    background-color:  #FF0000;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(3 68 5 / 82%);
+    width: auto;
+    height: auto;
+}
+
+.afazeres h2{
+    margin-top: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+.afazeres p{
+    line-height: 1.5;
+    color: #fff;
+}
+
+.secMaior{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secMaior2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secMaior3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec00{
+    height: 100px;
+    width: 100%;
+
+}
+
+input[type="submit"] {
+    background-color: #FF0000 ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+input[type="password"]{
+    width: 30%;
+  /*  height: auto;*/
+    margin-right: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+input[type="text"] {
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    /*margin-left: 90px;*/
+    border: 2px solid #ccc;
+}
+input[type="nome"] {
+    width: 50%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+input[type="number"] {
+    width: auto;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+input[type="email"] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+.lblNum {
+    margin-left: 100px;
+    text-align: center;
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+     padding: 15px;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="txtcep"] {
+    width: auto;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+input[type="txtTel"] {
+    width: auto;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+input[type="txtCpf"] {
+    width: auto;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+/*.cadastro{
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+}*/
+
+.bdyReq{
+    padding: 20px;
+    margin: 0;
+}
+
+footer {
+	background-color: #FF0000;
+	padding: 50px;
+	color: #fff;
+	font-family: Verdana, sans-serif;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+    margin-top: 45px;
+}
